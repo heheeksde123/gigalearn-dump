@@ -12,7 +12,7 @@ def init(py_exec_path, project, group, name, id=None):
 
     # Fix the path of our interpreter so wandb doesn't run RLGym_PPO instead of Python
     # Very strange fix for a very strange problem
-    sys.executable = r"C:\Users\maart\AppData\Local\Programs\Python\Python310\python.exe"
+    sys.executable = r"C:\Users\???\AppData\Local\Programs\Python\Python310\python.exe"
 
     try:
         site_packages_dir = os.path.join(
